@@ -77,7 +77,7 @@ namespace WindowsFormAPPTask1
 
         private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
-            MessageBox.Show("Contact Administrator\nPhone: +31 30 253 3550\nEmail: admin@universityutrecht.com\nContact Timings: 9 AM - 5 PM");
+            MessageBox.Show("Contact Administrator\nPhone: +31 30 253 3550\nEmail: admin@universityutrecht.com\nContact within these hours: 08:00-16:00");
         }
 
         private void button2_Click(object sender, EventArgs e)
