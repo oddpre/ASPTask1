@@ -1,14 +1,18 @@
 # WindowsFormAPPTask1
+Change the datasource in line 47 of Form1.cs to whatever works for you. (both device, and sql server connection/database name etc.)
 
 
--SQL Prompts
+SQL Queries
 
---The database.
+
+
+
+
+
+
 
 CREATE DATABASE Students_Oddi;
 
-
---TABLE
 CREATE TABLE Studlogin (
     StudID INT,
     FullName VARCHAR(50),
@@ -33,6 +37,6 @@ VALUES ( 1, 'Arvid', 1),
 (11, 'Odd', 1),
 (12, 'Harisha', 1),
 (13, 'Håkon', 1),
-(14, 'Karl', 0), --For legal reasons, this is a joke.
+(14, 'Karl', 0), 
 (15, 'Joe', 1);
 
